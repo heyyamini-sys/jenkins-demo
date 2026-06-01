@@ -6,7 +6,7 @@
     stages {
         stage("Checkout") {
             steps {
-                git branch: "main", url: "https://github.com/YOUR_USERNAME/jenkins-demo.git"
+                git branch: "main", url: "https://github.com/heyyamini-sys/jenkins-demo.git"
             }
         }
         stage("Build Docker Image") {
